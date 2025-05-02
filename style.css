@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  /* Tabs */
+  .tabcontent {
+    display: none;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  /* Active tab */
+  .active {
+    display: block;
+  }
+  
+  /* Gallery */
+  .gallery img {
+    width: 300px;
+    height: auto;
+  }
+  
+  /* Hover effect */
+  button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Form feedback */
+  #formMessage {
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+  }
+  

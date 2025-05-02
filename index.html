@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JS Event Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1> Welcome to My JS Playground </h1>
+
+  <!-- Button -->
+  <button id="magicButton">Click Me!</button>
+
+  <!-- Image Gallery -->
+  <div class="gallery">
+    <img id="galleryImage" src="https://images.unsplash.com/photo-1623935149803-7687a4353972?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FsbGVyeSUyMGFuaW1hbHN8ZW58MHx8MHx8fDA%3D" alt="Gallery Image">
+    <br>
+    <button id="nextImage">Next Image</button>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tablinks" data-tab="tab1">Tab 1</button>
+    <button class="tablinks" data-tab="tab2">Tab 2</button>
+
+    <div id="tab1" class="tabcontent">Content for Tab 1</div>
+    <div id="tab2" class="tabcontent">Content for Tab 2</div>
+  </div>
+
+  <!-- Form -->
+  <form id="signupForm">
+    <h2>Signup Form</h2>
+    <label>Email:</label><br>
+    <input type="email" id="email"><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" id="password"><br><br>
+
+    <button type="submit">Submit</button>
+    <div id="formMessage"></div>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
